@@ -1,4 +1,4 @@
-function Contacts() {
+function Contact() {
     return (
       <section className="py-20 bg-white pt-16">
         <div className="max-w-6xl mx-auto px-4">
@@ -49,4 +49,4 @@ function Contacts() {
     );
   }
   
-  export default Contacts;
+  export default Contact;

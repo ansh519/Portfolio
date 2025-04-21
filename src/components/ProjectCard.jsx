@@ -1,4 +1,5 @@
-function ProjectsCard({ title, description, image, link }) {
+// src/components/ProjectCard.jsx
+function ProjectCard({ title, description, image, link }) {
   return (
     <div className="bg-white shadow-lg rounded-lg overflow-hidden">
       <img src={image} alt={title} className="w-full h-48 object-cover" />
@@ -13,4 +14,4 @@ function ProjectsCard({ title, description, image, link }) {
   );
 }
 
-export default ProjectsCard;
+export default ProjectCard;
